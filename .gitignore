@@ -1,0 +1,5 @@
+# Compiled JavaScript
+dist
+
+# Node.js modules
+node_modules

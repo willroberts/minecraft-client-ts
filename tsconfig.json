@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+       "target": "es2022",
+       "module": "CommonJS",
+       "moduleResolution": "node16",
+       "esModuleInterop": true,
+       "outDir": "dist",
+       "declaration": true,
+       "declarationDir": "types",
+
+       "strict": true,
+       "allowUnreachableCode": false,
+       "noImplicitReturns": true,
+       "noImplicitOverride": true,
+       "noPropertyAccessFromIndexSignature": true,
+       "exactOptionalPropertyTypes": true,
+       "noUncheckedIndexedAccess": true,
+       "noFallthroughCasesInSwitch": true,
+       "noUnusedLocals": true,
+       "noUnusedParameters": true,
+       "allowUnusedLabels": false,
+       "importsNotUsedAsValues": "error",
+       "forceConsistentCasingInFileNames": true,
+       "noEmitOnError": true,
+    },
+
+    "files": [
+        "src/client.ts",
+        "src/message.ts"
+    ]
+}

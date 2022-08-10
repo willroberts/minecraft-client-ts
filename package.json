@@ -1,0 +1,29 @@
+{
+    "name": "minecraft-client-ts",
+    "license": "GPL3",
+    "scripts": {
+        "lint": "eslint . --ext .ts",
+        "format": "eslint . --ext .ts --fix",
+        "build": "tsc",
+        "test": "node node_modules/jest/bin/jest.js --detectOpenHandles --verbose src/message.test.ts",
+        "test_integ": "node node_modules/jest/bin/jest.js --detectOpenHandles --verbose src/client.test.ts"
+    },
+    "files": [
+        "src/client.js",
+        "src/message.js"
+    ],
+    "devDependencies": {
+        "@types/jest": "^28.0.0",
+        "@types/node": "^18.6.5",
+        "@typescript-eslint/eslint-plugin": "^5.33.0",
+        "@typescript-eslint/parser": "^5.33.0",
+        "eslint": "^8.21.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-import-resolver-typescript": "^3.4.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.8.2",
+        "jest": "^28.0.0",
+        "ts-jest": "^28.0.0",
+        "typescript": "^4.7.4"
+    }
+}
