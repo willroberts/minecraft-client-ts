@@ -6,7 +6,7 @@
 
 A client for the Minecraft RCON protocol.
 
-This library uses TypeScript, the Node.js runtime, Jest for testing, ESLint for linting, and CommonJS for compatibility.
+This library uses TypeScript, the Node.js runtime, CommonJS for compatibility, Jest for testing, and ESLint for linting.
 
 ## Library Usage
 
