@@ -2,6 +2,7 @@
 
 [![License Badge]][License]
 [![Build Badge]][Build]
+[![NPM Badge]][NPM]
 
 A client for the Minecraft RCON protocol.
 
@@ -71,3 +72,5 @@ npm run test_integ
 [License Badge]: https://img.shields.io/badge/License-GPLv3-blue.svg
 [Build]: https://github.com/willroberts/minecraft-client-ts/actions/workflows/build.yaml
 [Build Badge]: https://github.com/willroberts/minecraft-client-ts/actions/workflows/build.yaml/badge.svg
+[NPM]: https://www.npmjs.com/package/minecraft-client-ts
+[NPM Badge]: https://img.shields.io/npm/v/minecraft-client-ts
