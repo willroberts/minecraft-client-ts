@@ -6,7 +6,7 @@
 
 A client for the Minecraft RCON protocol.
 
-This project uses TypeScript, the Node.js runtime, Jest for testing, ESLint for linting, and CommonJS for compatibility.
+This library uses TypeScript, the Node.js runtime, Jest for testing, ESLint for linting, and CommonJS for compatibility.
 
 ## Library Usage
 
@@ -20,14 +20,14 @@ npm run build
 Use the client:
 
 ```ts
-import Client from "minecraft-client-ts"
-import { Message } from "minecraft-client-ts"
-const client: Client = new Client("127.0.0.1", 25575)
+import Client from "minecraft-client-ts";
+import { Message } from "minecraft-client-ts";
+const client: Client = new Client("127.0.0.1", 25575);
 
 // Client methods are Promises which reject(Error) on failure.
-await client.connect()
-await client.authenticate("mypassword")
-let resp: Message = await client.sendCommand("seed") // resp.body is "Seed: [-2474125574890692308]"
+await client.connect();
+await client.authenticate("mypassword");
+let resp: Message = await client.sendCommand("seed"); // resp.body is "Seed: [-2474125574890692308]"
 ```
 
 ## Limitations
