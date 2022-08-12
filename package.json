@@ -1,5 +1,12 @@
 {
     "name": "minecraft-client-ts",
+    "version": "1.0.0",
+    "description": "A Minecraft RCON client written in TypeScript",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/willroberts/minecraft-client-ts.git"
+    },
+    "keywords": ["minecraft", "rcon", "client", "typescript"],
     "license": "GPL3",
     "scripts": {
         "lint": "eslint . --ext .ts",
